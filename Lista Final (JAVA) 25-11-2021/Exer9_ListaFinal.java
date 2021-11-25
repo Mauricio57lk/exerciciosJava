@@ -3,17 +3,14 @@ public class Ex_9_Palindromos {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		final int TAM = 11;
-		int a[] = new int[TAM];
+		int a[] = new int[11];
 		int i, n = 0;
 
-		// Lendo os elementos
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Entre com o " + (i + 1) + "º número:");
+			System.out.println("Entre com o " + (i + 1) + "Âº nÃºmero:");
 			a[i] = in.nextInt();
 		}
 
-		// Verificando
 		for (i = 0; i < TAM; i++) {
 
 			if (a[i] == a[(TAM - 1) - i]) {
@@ -21,11 +18,10 @@ public class Ex_9_Palindromos {
 			}
 		}
 
-		// Apresentando se os elementos são palindromos ou não
 		if (n == TAM) {
-			System.out.println("Os elementos do vetor são palíndromos");
+			System.out.println("Os elementos do vetor sÃ£o palÃ­ndromos");
 		} else {
-			System.out.println("Os elementos do vetor não são palíndromos.");
+			System.out.println("Os elementos do vetor nÃ£o sÃ£o palÃ­ndromos.");
 		}
 
 		in.close();
