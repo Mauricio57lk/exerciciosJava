@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex_9_Palindromos {
+public class Exer9_ListaFinal {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
