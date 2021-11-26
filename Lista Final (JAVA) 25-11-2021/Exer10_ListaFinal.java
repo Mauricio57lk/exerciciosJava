@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex_10_NCrescentes {
+public class Exer10_ListaFinal {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		final int TAM = 10;
@@ -7,7 +7,7 @@ public class Ex_10_NCrescentes {
 		int i, j, b;
 
 		for (i = 0; i < TAM; i++) {
-			System.out.println("Entre com o " + (i + 1) + "º número que quer colocar em ordem crescente:");
+			System.out.println("Entre com o " + (i + 1) + "Âº nÃºmero que quer colocar em ordem crescente:");
 			a[i] = in.nextInt();
 		}
 
@@ -21,7 +21,7 @@ public class Ex_10_NCrescentes {
 			}
 		}
 
-		System.out.println(" Os elementos inseridos no vetor em ordem crescente é: ");
+		System.out.println(" Os elementos inseridos no vetor em ordem crescente Ã©: ");
 		System.out.print("[ ");
 
 		for (i = 0; i < TAM; i++) {
